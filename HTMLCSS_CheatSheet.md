@@ -87,6 +87,13 @@ src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
 ```
 
+To add images that have been uploaded to your folder in repl.it, use the example here: https://www.w3schools.com/html/html5_video.asp.
+```html
+<video controls>
+  <source src="Maddox.mp4" type="video/mp4">
+</video>
+```
+
 More info [here](https://www.w3schools.com/html/html_youtube.asp).
 
 ## CSS
