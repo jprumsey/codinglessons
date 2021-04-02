@@ -87,14 +87,32 @@ src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
 ```
 
+More info [here](https://www.w3schools.com/html/html_youtube.asp).
+
 To add images that have been uploaded to your folder in repl.it, use the example here: https://www.w3schools.com/html/html5_video.asp.
+
+To add videos:
 ```html
 <video controls>
   <source src="Maddox.mp4" type="video/mp4">
 </video>
 ```
 
-More info [here](https://www.w3schools.com/html/html_youtube.asp).
+Center an image using CSS attributes `display : block` and `margin-left : auto`, `margin-right : auto`:
+
+```html
+<img src="paris.jpg" alt="Paris" class="center">
+```
+
+```css
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+```
+
 
 ## CSS
 
